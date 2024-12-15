@@ -1,0 +1,20 @@
+.form {
+    padding-top: 2rem;
+}
+input {
+    margin-bottom: 2rem;
+}
+.form a{
+    text-decoration: none;
+    background-color: #f2e8e1;
+}
+.form a:hover{
+    color: #314233;
+}
+.form button{
+    background-color: #f2e8e1;
+}
+.form h1{
+    text-align: center;
+    color: #314233;
+}
