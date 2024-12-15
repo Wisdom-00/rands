@@ -9,7 +9,7 @@ class Gallery extends Component {
 
     render(){
         return(
-            <div className="container-fluid gallery">
+            <div className="container-fluid gallery" id="gallery">
                 <div className="head"><h1>OUR MENU...</h1></div>
                 <div className="row">
                     <div className="col-md-1"></div>
