@@ -8,3 +8,8 @@ img {
 #carousel {
     justify-content: center;
 }
+.carousel-caption{
+    background-color: teal;
+    padding: 10px 3px;
+    
+}

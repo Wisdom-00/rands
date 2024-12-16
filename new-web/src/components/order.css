@@ -18,3 +18,7 @@
 #order a:hover{
     color: #f2e8e1;
 }
+.order-btn{
+    background-color: white;
+    color: #314250;
+}
