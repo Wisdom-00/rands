@@ -12,7 +12,7 @@ class Order extends Component {
                 <h1>Order Deliciousness On-The-Go!</h1>
                 <h4>Taste the Goodness of Fast Food Flavors</h4>
                 <p>We combine taste and quality to serve you a delightful array of mouthwatering dishes, crafted with passion and made to perfection.</p>
-                <button className="btn btn-outline"><a href="09131090271">Order Now</a></button>
+                <button className="btn btn-outline order-btn"><a tel="09131090271">Order Now</a></button>
             </div>
         )
     }
