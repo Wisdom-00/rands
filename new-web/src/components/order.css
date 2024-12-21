@@ -5,7 +5,7 @@
     color: #f2e8e1;
 }
 #order .btn{
-    background-color: #314250;
+    background-color: #19486d;
     margin-bottom: 2rem;
 }
 #order h1{
@@ -13,12 +13,11 @@
 }
 #order a{
     text-decoration: none;
-    background-color: #314250;
+    background-color: #19486d;
 }
 #order a:hover{
     color: #f2e8e1;
 }
-.order-btn{
-    background-color: white;
-    color: #314250;
+#order a {
+    color: white;
 }

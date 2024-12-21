@@ -11,9 +11,9 @@ class Footer extends Component{
         return(
             <div className="footer" id="about">
                 <div className="row">
-                    <div className="col-md-1 logs"><span class="material-symbols-outlined">
-storefront
-</span></div>
+                    <div className="col-md-1">
+                        <span class="material-symbols-outlined ">store </span>
+                    </div>
                     <div className="col-md-4">
                         <div>Order with the click of a button</div>
                         <button className="btn btn-outline"><a href="09131090271">Order Now</a></button>

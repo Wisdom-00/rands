@@ -9,10 +9,10 @@
     color:#f2e8e1;
     text-decoration: none;
 }
-.logs {
+/* .logs {
     background-color: #f2e8e1;
     margin-left: 2rem;
-}
+} */
 .foo a:hover{
     color:#f2e8e1;
 }
