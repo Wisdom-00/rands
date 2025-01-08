@@ -1,0 +1,98 @@
+.c2{
+    margin-top: 7rem;
+    border-top: 2px solid #000;
+    border-radius: 10%;
+    
+}
+.c2 .row{
+  cursor: pointer;
+  padding: 0 2rem;
+}
+
+.c2 .col-6{
+  padding: 0 0.5rem 1rem;
+}
+.c2img{
+    width: 100%;
+    height: 100%;
+
+}
+.c2 h1, .c2 h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #3944bc;
+}
+.c2 h3{
+  font-weight: 200;
+}
+.c2 h1:hover{
+  color: #fff;
+}
+.c2l{
+    padding: 2.5rem 0 1rem 0;
+    border-bottom: 2px solid #000;
+}
+.c2l a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #3944bc;
+    margin: 2rem 0;
+    padding: 0.2rem;
+    border-radius: 10%;
+}
+
+h1.h {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+  
+ 
+ .thumbnail img {
+  opacity: 0; 
+  transform: translateY(30px); 
+  transition: opacity 0.6s ease, transform 0.6s ease; 
+}
+  
+  
+.thumbnail img.visible {
+  opacity: 1; 
+  transform: translateY(0); 
+}
+  
+  /* Link styling for popup */
+
+.popup{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.popup img{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.popup .close {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+@media screen and (max-width: 660px) {
+  .c2 .col-6 iframe {
+    height: 100%;
+    width: 100%;
+  }
+}
+  
+  

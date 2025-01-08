@@ -1,0 +1,88 @@
+.footer {
+  font-weight: 600;
+    justify-content: center;
+    background-color: #292929;
+    color: #fff;
+    padding: 1rem 0 2rem 0;
+}
+.footer .br{
+    border-right: 2px solid #fff;
+}
+.footer h1{
+    font-size: 2rem;
+    margin: 3rem 0 4rem 0;
+}
+.footer p{
+    text-transform: capitalize;
+}
+.foo .btn-outline{
+  color: #fff;
+  border: 1px solid #Fff;
+}
+ 
+.foo .card {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+/* for all social containers*/
+.foo .socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+/* instagram*/
+.foo .containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.foo .containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.foo .containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.foo .socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.foo .socialSvg {
+  width: 17px;
+}
+
+.foo .socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.foo .socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+

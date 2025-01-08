@@ -1,0 +1,71 @@
+.gallery{
+    cursor: pointer;
+    padding: 80px 5px 30px;
+    background-color: #292929;
+}
+.gallery .img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: 2px solid #3944bc;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.gallery .material-symbols-outlined{
+    color: #3944bc;
+}
+.gallery .img:hover{
+    transform: scale(1.05);
+    box-shadow: 0.4px 8px #999;
+}
+.gallery .gal-h, .gallery .galh{
+    color: #3944bc;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.thumbnail img {
+    opacity: 0; /* Start as invisible */
+    transform: translateY(30px); /* Start slightly shifted down */
+    transition: opacity 0.6s ease, transform 0.6s ease; /* Add transition */
+  }
+  
+  /* When the image becomes visible, apply the fade-up effect */
+  .thumbnail img.visible {
+    opacity: 1; /* Fade in */
+    transform: translateY(0); /* Slide up to original position */
+  }
+.popup{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); 
+    justify-content: center;
+    align-items: center;
+}
+.popup img{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 5px;
+}
+.popup .close {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+@media screen and (max-width:660px) {
+    .gallery iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .thumbnail img{
+        margin-bottom: 1rem;
+    }
+}
